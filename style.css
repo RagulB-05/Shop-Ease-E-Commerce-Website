@@ -363,6 +363,7 @@ body {
   height: 30px;
   border-radius: 5px;
   border: none;
+  margin-bottom: 10%;
 }
 
 .details textarea {
@@ -370,6 +371,7 @@ body {
   height: 100px;
   border: none;
   border-radius: 5px;
+  margin-bottom: 10%;
 }
 
 .details input,
@@ -392,21 +394,25 @@ textarea:focus {
   .newarival-container img {
     position: relative;
     left: 50px;
+    width: 250px;
+    margin-bottom: 5%;
   }
 
   .newarival-container button {
     position: relative;
-    left: -110px;
+    left: -130px;
   }
 
   .mostwanted-container img {
     position: relative;
     left: 50px;
+    width: 250px;
+    margin-bottom: 5%;
   }
 
   .mostwanted-container button {
     position: relative;
-    left: -110px;
+    left: -130px;
   }
 
   .navbar-menu {
@@ -433,7 +439,12 @@ textarea:focus {
     flex-direction: column;
   }
 
+  .service-container2 div {
+    margin-bottom: 5%;
+  }
   .contact-area {
     left: 15%;
+    margin: 10% 0%;
+    text-align: left;
   }
 }
