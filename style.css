@@ -421,6 +421,10 @@ textarea:focus {
     display: none;
   }
 
+  .header {
+    margin-left: 10%;
+  }
+
   .service-container1 {
     display: none;
   }
